@@ -20,6 +20,7 @@ public class SearchTest {
 		Search searchPg= PageFactory.initElements(driver, Search.class);
 		searchPg.searchAction("bed");
 		System.out.println("Bed");
+		System.out.println("Update");
 		driver.navigate().to("https://www.rentomojo.com");
 //		driver.quit();
 
