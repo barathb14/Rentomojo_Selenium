@@ -18,6 +18,7 @@ public class LoginTest {
 		
 		Login loginPg= PageFactory.initElements(driver, Login.class);
 		loginPg.loginAction("8667225215");
+		System.out.println("Successful");
 //		driver.quit();
 
 	}
